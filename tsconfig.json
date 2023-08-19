@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",  // Target de compilação (pode ser es5, es6, etc.)
+      "module": "commonjs",  // Sistema de módulos (Node.js usa commonjs)
+      "strict": false,  // Desativar verificação estrita
+      "esModuleInterop": true,  // Para interoperação de módulos mais fácil
+      "skipLibCheck": true,  // Ignora a verificação de tipos nas declarações de bibliotecas
+      "outDir": "./dist",  // Diretório onde os arquivos compilados serão colocados
+      "rootDir": "./"  // Diretório raiz dos arquivos fonte
+    },
+    "exclude": [
+      "node_modules"  // Exclui o diretório node_modules da compilação
+    ]
+  }
